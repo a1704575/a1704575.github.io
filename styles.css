@@ -69,7 +69,17 @@ tr:nth-child(even) {
 }
 
 @media (min-width: 768px) {
-  .button-53 {
+  .button {
     padding: .75rem 3rem;
     font-size: 1.25rem;
   }
+}
+  @media (max-width: 480px) {
+    body {
+      background-color: pink;
+    }
+
+    aside {
+      height: 20vh;
+    }
+  } 
