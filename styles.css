@@ -28,7 +28,7 @@ tr:nth-child(even) {
   background-color: rgb(196, 238, 254);
 }
 
-.button {
+button {
   background-color: #3DD1E7;
   border: 0 solid #E5E7EB;
   box-sizing: border-box;
@@ -54,11 +54,11 @@ tr:nth-child(even) {
   touch-action: manipulation;
 }
 
-.button:focus {
+button:focus {
   outline: 0;
 }
 
-.button:after {
+button:after {
   content: '';
   position: absolute;
   border: 1px solid #000000;
@@ -68,7 +68,7 @@ tr:nth-child(even) {
   height: calc(100% - 1px);
 }
 
-.button:hover:after {
+button:hover:after {
   bottom: 2px;
   left: 2px;
 }
