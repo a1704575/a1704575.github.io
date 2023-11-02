@@ -87,6 +87,7 @@ button:after {
   left: 4px;
   width: calc(100% - 1px);
   height: calc(100% - 1px);
+  max-width: 420px;
 }
 
 button:hover:after {
