@@ -16,5 +16,5 @@ img {
 }
 
 tr:nth-child(even) {
-  background-color: lightblue;
+  background-color: rgb(82, 87, 89);
 }
