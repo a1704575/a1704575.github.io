@@ -42,7 +42,7 @@ table, th, td {
 }
 
 table {
-  width: 100%;
+  width: calc(100%-200px);
 }
 
 tr:nth-child(even) {
@@ -65,7 +65,7 @@ button {
   text-align: center;
   text-decoration: none #000000 solid;
   text-decoration-thickness: auto;
-
+  width: 100%;
   max-width: 420px;
   position: relative;
   cursor: pointer;
@@ -149,5 +149,9 @@ button:hover:after {
     aside {
       height: 20vh;
       width: 50vh;
+    }
+
+    table {
+      width: 100%;
     }
   } 
