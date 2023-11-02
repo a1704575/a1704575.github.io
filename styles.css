@@ -66,7 +66,7 @@ button {
   text-decoration: none #000000 solid;
   text-decoration-thickness: auto;
   width: 100%;
-  max-width: 440px;
+  max-width: 420px;
   position: relative;
   cursor: pointer;
   transform: rotate(-2deg);
